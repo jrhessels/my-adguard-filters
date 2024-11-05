@@ -1,29 +1,45 @@
+!
+! Title: Personal Blocklist
+! Description: Open-Source ad blocker for personal use
+! Last Modified: 2024-11-5 15:44
+!
+
+#[google]
 ||google-analytics.com^
 ||play.google.com^
 ||https://www.googleadservices.com/*
-||winatp-gw-weu.microsoft.com^
-||optimizationguide-pa.googleapis.com^
 ||lh3.googleusercontent.com^
-||europe.smartscreen.microsoft.com^
-||https://www.gstatic.com^
-||https://i.ytimg.com/*
-||https://yt3.ggpht.com/*
-||https://tpc.googlesyndication.com
-||https://googleads.g.doubleclick.net*
+||https://googleads.g.doubleclick.net^
 ||https://rr2---sn-32o-bg9e.googlevideo.com^
 ||https://region1.google-analytics.com^
-||https://encrypted-tbn2.gstatic.com/*
-||https://encrypted-tbn0.gstatic.com/*
-||https://www.youtube.com/api/stats/*
+||https://ade.googlesyndication.com/*
+
+#[youtube]
+||https://www.youtube.com/api/stats/^
+
+#[Facebook.com]
+||https://l.facebook.com/l.php?u=https
+
+
+||winatp-gw-weu.microsoft.com^
+||optimizationguide-pa.googleapis.com^
+||europe.smartscreen.microsoft.com^
+||https://www.gstatic.com^
+||https://i.ytimg.com/^
+||https://yt3.ggpht.com/^
+||https://tpc.googlesyndication.com
+||https://encrypted-tbn2.gstatic.com/^
+||https://encrypted-tbn0.gstatic.com/^
 
 ||https://static.xx.fbcdn.net/*^
-||https://l.facebook.com/l.php?u=https*
-||https://ade.googlesyndication.com/*
+
 ||https://ib.adnxs.com/*
 ||https://advertising-cdn*
 ||nym1-ib.adnxs-simple.com^
 ||https://ads.pexi.nl^
 
-# secured domains block list
+# [nu.nl]
 ||advertising-cdn.dpgmedia.cloud^
-@@||msmetrics.ws.sonos.com^$important
+
+#[allow list]
+@@||msmetrics.ws.sonos.com^
