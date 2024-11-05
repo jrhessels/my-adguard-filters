@@ -5,7 +5,6 @@
 ||optimizationguide-pa.googleapis.com^
 ||lh3.googleusercontent.com^
 ||europe.smartscreen.microsoft.com^
-||https://advertising-cdn.dpgmedia.cloud/*
 ||https://www.gstatic.com^
 ||https://i.ytimg.com/*
 ||https://yt3.ggpht.com/*
@@ -25,4 +24,6 @@
 ||nym1-ib.adnxs-simple.com^
 ||https://ads.pexi.nl^
 
+# secured domains block list
+||advertising-cdn.dpgmedia.cloud^
 @@||msmetrics.ws.sonos.com^$important
