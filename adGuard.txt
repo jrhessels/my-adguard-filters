@@ -13,13 +13,15 @@
 ||https://rr2---sn-32o-bg9e.googlevideo.com^
 ||https://region1.google-analytics.com^
 ||https://ade.googlesyndication.com/*
+||googlevideo.com/videoplayback?*ctier=L*
+||www.google.com/pagead/^
 
 #[youtube]
 ||youtube.com/api/stats/ads?*
 ||youtube.com/get_video_info?*adformat=*
 ||youtube.com//yva_videoad
 ||youtube.com/get_midroll_info?*
-||googlevideo.com/videoplayback?*ctier=L*
+||encrypted-tbn1.gstatic.com^
 
 
 #[Facebook.com]
